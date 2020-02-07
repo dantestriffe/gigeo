@@ -1,0 +1,45 @@
+.image-profile{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+
+.flexy-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid grey 1px;
+    padding-bottom: 21px;
+    padding-top: 16px;
+}
+
+.title-profile{
+    text-align: center;
+}
+
+.title{
+    font-size: $medium;
+    width: max-content;
+    font-weight: bold;
+}
+
+.profile{
+    width: 6em;
+    display: flex;
+    align-items: center;;
+}
+
+.subtitle{
+    font-family: $opensans;
+    font-size: $small;
+    font-weight: $font-light;
+    color: gray;
+    width: max-content;
+}
+
+@media (max-width: 576px){
+    .flexy-profile{
+        border-bottom: solid white 0px;        
+    }
+
+}

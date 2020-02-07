@@ -1,0 +1,10 @@
+#botones{
+    margin-right: 15px;
+    border-radius: 0em;
+}
+
+    @media (max-width: 576px) {
+        #botones{
+        display: none;
+        }
+    }

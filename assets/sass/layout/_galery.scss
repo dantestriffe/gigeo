@@ -1,0 +1,53 @@
+.image_gallery{
+    width: 100%;
+    display: flex;
+    flex-wrap: inherit;
+}
+
+.gallery_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2{
+    font-family: $monserrat;
+    font-size: 20px;
+}
+
+h5{
+    font-family: $opensans;
+    opacity: 60%;
+    color: grey;
+}
+
+.text_gallery{
+    text-align: center;
+    font-family: $opensans;
+}
+
+#tam-img{
+    width: 100%;
+    height: 222px;
+}
+
+@media (min-width: 576px){
+    .text_gallery{
+        text-align: left;        
+    }
+
+}
+
+@media (min-width: 576px){
+    .image_gallery{
+        width: 23%;       
+    }
+
+}
+
+@media (max-width: 576px){
+    #tam-img{
+        width: 100%;
+        height: auto;
+    }
+}
